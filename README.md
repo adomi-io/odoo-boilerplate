@@ -4,17 +4,16 @@
 > [adomi-io/odoo](https://github.com/adomi-io/odoo)
  
 # Adomi-io - Odoo Boilerplate
+> [!NOTE]
+> Adomi is an Odoo partner and consulting company. We try to make developing Odoo apps and business
+> utilities as easy as possible. This boilerplate will get you started with Odoo quickly and allow you to run
+> your odoo instance anywhere. 
 
 Odoo is an open-source ERP platform that bundles common business apps (CRM, Sales, Inventory, Accounting, HR, Manufacturing, and more) into a single system.
 
 This repository is a starter template for getting up and running with Odoo quickly. 
 
 Clone it, add your custom addons, to the addons folder, configure your instance, and you're ready to ship Odoo
-
-> [!NOTE]
-> Adomi is an Odoo partner and consulting company. We try to make developing Odoo apps and business
-> utilities as easy as possible. This boilerplate will get you started with Odoo quickly and allow you to run
-> your odoo instance anywhere. 
 
 # Highlights
 
