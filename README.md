@@ -106,28 +106,6 @@ See the main image repo for IDE and breakpoint setup patterns:
 
 * **[adomi-io/odoo](https://github.com/adomi-io/odoo)**
 
-# Extending the base image
-
-Most real projects need at least one of these:
-
-* Python dependencies
-* Enterprise addons
-* extra addons baked into the image
-* default config baked in
-
-Create a `Dockerfile` in your project root:
-
-```dockerfile
-FROM ghcr.io/adomi-io/odoo:19.0
-
-# Install Python dependencies (example)
-# USER root
-# RUN pip install stripe
-# USER 1000
-
-# Copy project addons into the image (optional, if you don’t want to mount)
-# COPY ./addons /volumes/addons
-```
 # Notes on Enterprise
 
 If you’re an Odoo Partner (or have GitHub access), you can clone `odoo/enterprise` into the project
