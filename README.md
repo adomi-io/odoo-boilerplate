@@ -1,4 +1,8 @@
 
+> [!TIP]
+> Upstream image source code
+> 
+> **[adomi-io/odoo](https://github.com/adomi-io/odoo)**
  
 # Adomi - Odoo Boilerplate
 
@@ -9,10 +13,6 @@ This repository is a starter template for getting up and running with Odoo quick
 Clone it, add your custom addons, to the addons folder, configure your instance, and you're ready to ship Odoo
 
 > [!TIP]
-> Upstream image source code
-> 
-> **[adomi-io/odoo](https://github.com/adomi-io/odoo)**
-> 
 > Example Downstream image
 > 
 > **[adomi-io/odoo-community-base](https://github.com/adomi-io/odoo-community-base)**
