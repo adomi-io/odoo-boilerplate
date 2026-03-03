@@ -1,10 +1,12 @@
 
 > [!TIP]
 > Upstream image source code
-> [adomi-io/odoo](https://github.com/adomi-io/odoo)
+> 
+> **[adomi-io/odoo](https://github.com/adomi-io/odoo)**
 > 
 > Example Downstream image
-> [adomi-io/odoo-community-base](https://github.com/adomi-io/odoo-community-base)
+> 
+> **[adomi-io/odoo-community-base](https://github.com/adomi-io/odoo-community-base)**
  
 # Adomi - Odoo Boilerplate
 
