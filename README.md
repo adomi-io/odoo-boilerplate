@@ -121,7 +121,6 @@ You can change the base image via a build arg in the `docker-compose.yml`, or by
 
 ## Dockerfile
 If you would like to change the default base image for your project, after taking a copy of this template,
-
 change the first line of the `Dockerfile` to your desired base image url:
 
 ```dockerfile
