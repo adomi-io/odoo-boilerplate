@@ -1,3 +1,13 @@
+<p align="center">
+  <a href="https://github.com/new?template_name=odoo-boilerplate&template_owner=adomi-io">
+    <img
+      src="https://img.shields.io/badge/Use%20this%20template-2ea44f?style=for-the-badge&logo=github&logoColor=white"
+      alt="Use this template"
+      width="600"
+    />
+  </a>
+</p>
+
 # Adomi - Odoo Boilerplate
 
 Odoo is an open-source ERP platform that bundles common business apps (CRM, Sales, Inventory, Accounting, HR, Manufacturing, and more) into a single system.
@@ -26,16 +36,6 @@ Clone it, add your custom addons, to the addons folder, configure your instance,
 - 🧱 **Easy image extension**: Add Python deps, extra addons, or Enterprise without fighting Docker.
 
 # Getting started
-
-<p align="center">
-  <a href="https://github.com/new?template_name=odoo-boilerplate&template_owner=adomi-io">
-    <img
-      src="https://img.shields.io/badge/Use%20this%20template-2ea44f?style=for-the-badge&logo=github&logoColor=white"
-      alt="Use this template"
-      width="600"
-    />
-  </a>
-</p>
 
 > [!WARNING]
 > This project is made to run via Docker.
