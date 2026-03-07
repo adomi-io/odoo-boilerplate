@@ -15,7 +15,7 @@ Odoo is an open-source ERP platform that bundles common business apps (CRM, Sale
 This repository is a starter template for getting up and running with Odoo quickly, using a community-driven nightly build of 
 Odoo's Github repository.
 
-Clone it, add your custom addons, to the addons folder, configure your instance, and you're ready to ship Odoo
+Clone it, add your custom addons, and you're ready to ship Odoo
 
 > [!TIP]
 > Upstream image source code
