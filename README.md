@@ -3,7 +3,7 @@
     <img
       src="https://img.shields.io/badge/Use%20this%20template-2ea44f?style=for-the-badge&logo=github&logoColor=white"
       alt="Use this template"
-      width="600"
+      width="400"
     />
   </a>
 </p>
