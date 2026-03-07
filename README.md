@@ -89,6 +89,37 @@ docker compose exec odoo /bin/bash
 ```
 
 # Changing the base image
+This repo lets you use any base image you want. This lets you extend any part of our stack,
+and quickly swap out the base image for your own image, or one of our pre-configured images.
+
+This allows you to have a custom pre-built version of Odoo with all your custom addons you can
+quickly take a copy of, or to swap a user's underlying image to Enterprise quickly and easily. 
+
+You can change the base image via a build arg in the `docker-compose.yml`, or by editing the `Dockerfile`.
+
+## Dockerfile
+If you would like to change the default base image for your project, after taking a copy of this template,
+
+change the first line of the `Dockerfile` to your desired base image url:
+
+```dockerfile
+ARG ODOO_BASE_IMAGE=ghcr.io/adomi-io/odoo:19.0
+```
+
+## Build arg
+
+For example, if you have a pre-configured image with Enterprise, you can
+
+```yaml
+services:
+  app_odoo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        ODOO_BASE_IMAGE: ghcr.io/your-company/odoo-enterprise:latest
+```
+
 
 # Project layout
 
@@ -113,20 +144,6 @@ If you’re using the Adomi Odoo image as your runtime, you can also use it as a
 See the main image repo for IDE and breakpoint setup patterns:
 
 * **[adomi-io/odoo](https://github.com/adomi-io/odoo)**
-
-# Notes on Enterprise
-
-If you’re an Odoo Partner (or have GitHub access), you can clone `odoo/enterprise` into the project
-and either mount it or bake it into a downstream image.
-
-If you’re not a partner, you can download Enterprise from Odoo and place it in a folder in this repo
-(keep licensing in mind, of course).
-
-The base image repo includes concrete examples and paths:
-
-* **[adomi-io/odoo](https://github.com/adomi-io/odoo)**
-
-
 
 # Adomi
 Adomi is an Odoo partner and consulting company. We try to make developing Odoo apps and business
