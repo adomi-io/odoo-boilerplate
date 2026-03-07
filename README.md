@@ -27,12 +27,6 @@ Clone it, add your custom addons, to the addons folder, configure your instance,
 
 # Getting started
 
-> [!WARNING]
-> This project is made to run via Docker.
-> If you’re on Windows or macOS, install Docker Desktop:
->
-> **[Download Docker Desktop](https://www.docker.com/products/docker-desktop/)**
-
 <p align="center">
   <a href="https://github.com/new?template_name=odoo-boilerplate&template_owner=adomi-io">
     <img
@@ -42,6 +36,12 @@ Clone it, add your custom addons, to the addons folder, configure your instance,
     />
   </a>
 </p>
+
+> [!WARNING]
+> This project is made to run via Docker.
+> If you’re on Windows or macOS, install Docker Desktop:
+>
+> **[Download Docker Desktop](https://www.docker.com/products/docker-desktop/)**
 
 Use this template to create your own Odoo project. 
 
