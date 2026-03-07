@@ -45,7 +45,7 @@ Simply take a copy of this repo, upload your custom addons into the `addons` fol
     <img
       src="https://img.shields.io/badge/Use%20this%20template-2ea44f?style=for-the-badge&logo=github&logoColor=white"
       alt="Use this template"
-      height="60"
+      height="120"
     />
   </a>
 </p>
