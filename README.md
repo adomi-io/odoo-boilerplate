@@ -113,10 +113,14 @@ docker compose exec odoo /bin/bash
 This repo lets you use any base image you want. This lets you extend any part of our stack,
 and quickly swap out the base image for your own image, or one of our pre-configured images.
 
-This allows you to have a custom pre-built version of Odoo with all your custom addons you can
+This allows you to have a custom pre-built version of Odoo with all your custom addons which you can
 quickly take a copy of, or to swap a user's underlying image to Enterprise quickly and easily. 
 
 You can change the base image via a build arg in the `docker-compose.yml`, or by editing the `Dockerfile`.
+
+To make your own base image, simply take a copy of this repo, and add your custom addons to the `additional_addons` folder,
+and push your code to GitHub. GitHub Actions will build and push your image to GitHub Container Registry. Copy the image URL
+from the Packages tab, and use it as the base image.
 
 
 ## Dockerfile
