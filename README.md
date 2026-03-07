@@ -33,13 +33,6 @@ Clone it, add your custom addons, to the addons folder, configure your instance,
 >
 > **[Download Docker Desktop](https://www.docker.com/products/docker-desktop/)**
 
-Use this template to create your own Odoo project. 
-
-When you use this template, it will create you a GitHub repository with
-a CI/CD workflow that will optionally build and deploy your Odoo image to ghcr.
-
-Simply take a copy of this repo, upload your custom addons into the `addons` folder, and you're ready to go!
-
 <p align="center">
   <a href="https://github.com/new?template_name=odoo-boilerplate&template_owner=adomi-io">
     <img
@@ -49,6 +42,14 @@ Simply take a copy of this repo, upload your custom addons into the `addons` fol
     />
   </a>
 </p>
+
+Use this template to create your own Odoo project. 
+
+When you use this template, it will create you a GitHub repository with
+a CI/CD workflow that will optionally build and deploy your Odoo image to ghcr.
+
+Simply take a copy of this repo, upload your custom addons into the `addons` folder, and you're ready to go!
+
 
 ## Manual setup
 
