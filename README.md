@@ -143,7 +143,7 @@ services:
 
 # Making your own base image
 
-To make your own base image, simply take a copy of this repo, and add your custom addons to the `additional_addons` folder,
+To make your own base image, simply take a copy of this repo, and add your custom addons to the `extra_addons` folder,
 and push your code to GitHub. GitHub Actions will build and push your image to GitHub Container Registry. Copy the image URL
 from the Packages tab, and use it as the base image.
 
