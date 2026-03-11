@@ -25,12 +25,12 @@ Odoo's Github repository.
 
 Clone it, add your custom addons, and you're ready to ship Odoo
 
-> [!TIP]
+> [!NOTE]
 > **Upstream image source code**
 > 
 > - [adomi-io/odoo](https://github.com/adomi-io/odoo)
  
-> [!TIP]
+> [!NOTE]
 > **Downstream images**
 > 
 > You can copy these to quickly get started with your Odoo project
