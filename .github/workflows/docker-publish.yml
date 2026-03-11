@@ -69,8 +69,7 @@ jobs:
 
       - name: Run unit tests
         if: ${{ !env.SKIP_UNIT_TESTS }}
-        working-directory: tests
-        run: ./unit-tests.sh
+        run: ./tests/unit-tests.sh
         env:
           TESTS_IMAGE_TAG: ${{ env.DESTINATION_REGISTRY }}/${{ env.DESTINATION_IMAGE_NAME }}:${{ env.IMAGE_TAG }}
           SKIP_BUILD: true
