@@ -1,6 +1,6 @@
 
 <p align="center">
-  <a href="https://github.com/new?template_name=odoo-boilerplate&template_owner=adomi-io">
+  <a href="https://github.com/new?template_name=boilerplate-odoo&template_owner=adomi-io">
     <img
       src="https://img.shields.io/badge/Use%20this%20template-2ea44f?style=for-the-badge&logo=github&logoColor=white"
       alt="Use this template"
@@ -24,7 +24,7 @@ Clone it, add your custom addons, and you're ready to ship Odoo
 > 
 > Start with our Odoo Enterprise boilerplate
 > 
-> - **[Odoo Enterprise Boilerplate (Partners)](https://github.com/adomi-io/odoo-enterprise-boilerplate)**
+> - **[Odoo Enterprise Boilerplate (Partners)](https://github.com/adomi-io/boilerplate-odoo-enterprise)**
 
 > [!NOTE]
 > **Upstream image source code**
@@ -36,7 +36,7 @@ Clone it, add your custom addons, and you're ready to ship Odoo
 > You can copy these to quickly get started with your Odoo project
 > 
 > - [adomi-io/odoo-community-base](https://github.com/adomi-io/odoo-community-base)
-> - [adomi-io/odoo-enterprise-boilerplate](https://github.com/adomi-io/odoo-enterprise-boilerplate)
+> - [adomi-io/boilerplate-odoo-enterprise](https://github.com/adomi-io/boilerplate-odoo-enterprise)
 
 # Highlights
 
@@ -117,7 +117,7 @@ docker compose exec odoo /bin/bash
 > [!TIP]
 > **Looking for Enterprise?** 
 > 
-> First copy [adomi-io/odoo-enterprise-boilerplate](https://github.com/adomi-io/odoo-enterprise-boilerplate).
+> First copy [adomi-io/boilerplate-odoo-enterprise](https://github.com/adomi-io/boilerplate-odoo-enterprise).
 > It will build your team a custom image with Enterprise.
 > 
 > Set the `ODOO_DOCKER_IMAGE` arg to:
