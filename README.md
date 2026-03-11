@@ -25,12 +25,12 @@ Clone it, add your custom addons, and you're ready to ship Odoo
 > Start with our Odoo Enterprise boilerplate
 > 
 > - **[Odoo Enterprise Boilerplate (Partners)](https://github.com/adomi-io/odoo-enterprise-boilerplate)**
->
+
 > [!NOTE]
 > **Upstream image source code**
 > 
 > - [adomi-io/odoo](https://github.com/adomi-io/odoo)
-> 
+ 
 > [!NOTE]
 > **Downstream images**
 > 
