@@ -1,10 +1,3 @@
-> [!TIP]
-> **Looking for Odoo Enterprise?** 
-> 
-> Start with our Odoo Enterprise boilerplate
-> 
-> - **[Odoo Enterprise Boilerplate (Partners)](https://github.com/adomi-io/odoo-enterprise-boilerplate)**
-
 
 <p align="center">
   <a href="https://github.com/new?template_name=odoo-boilerplate&template_owner=adomi-io">
@@ -15,6 +8,13 @@
     />
   </a>
 </p>
+
+> [!TIP]
+> **Looking for Odoo Enterprise?** 
+> 
+> Start with our Odoo Enterprise boilerplate
+> 
+> - **[Odoo Enterprise Boilerplate (Partners)](https://github.com/adomi-io/odoo-enterprise-boilerplate)**
 
 # Adomi - Odoo Boilerplate
 
